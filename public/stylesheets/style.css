@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    opacity: 90%;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    background-color: rgba(24, 24, 24, 0.719);
+}
+.nav-item active {
+    color: white;
+}
+.button {
+    background-color: #ff7417;
+    color: white;
+    border-radius: 20px;
+}
+.card {
+    color: white;
+    border: none;
+    background-color: rgba(54, 45, 45, 0);
+    margin: none;
+    padding: none
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color:white;
+    text-align: center;
+}
+label {
+    color:white;
+    text-align: center;
+}

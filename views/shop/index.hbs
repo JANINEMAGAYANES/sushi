@@ -1,0 +1,18 @@
+<h1>Nigiri</h1>
+{{# each products}}
+<div class="row">
+{{# each this}}
+<div class="col-sm-6 col-lg-4">
+  <div class="card">
+    <img src="{{ this.imagePath}}" class="card-img-top img-responsive" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ this.name}}</h5>
+      <div class="price">${{ this.price}}.00</div>
+      <p class="card-text"></p>
+      <a href="/add/{{this._id}}" class="btn button">Order Now</a>
+    </div>
+  </div>
+</div>
+{{/each}}
+</div>
+{{/each}}
